@@ -1,0 +1,30 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "shoppingList",
+  "author": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgrx/shoppingList.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fgrx/shoppingList/issues"
+  },
+  "homepage": "https://github.com/fgrx/shoppingList#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.15"
+  }
+}

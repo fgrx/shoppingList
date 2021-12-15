@@ -1,0 +1,20 @@
+get http://localhost:3000
+
+###
+
+get http://localhost:3000/shopping
+
+###
+get http://localhost:3000/shopping/5
+
+###
+post http://localhost:3000/shopping
+Content-Type: application/json
+
+{
+    "title":"Test !",
+    "date":"2021-11-30T13:14:41.484Z"
+}
+
+###
+delete http://localhost:3000/shopping/5
