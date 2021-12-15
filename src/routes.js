@@ -1,12 +1,8 @@
-import express from "express";
-
 class Routes {
   app;
   datas;
 
   constructor(app, datas) {
-    app.use(express.json());
-
     app.get("/", (req, res) =>
       res
         .status(200)
